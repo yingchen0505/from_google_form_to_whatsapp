@@ -31,13 +31,13 @@ more readable.
 new line in the formatted report.
 
 
-2. Attaching images
+2. Attaching images  
 
 Images are sent as attachments to the email so that the reporter can easily retrieve them.
 Images should be named properly by the reporter before uploading. 
 
 
-3. Checking the total size of images
+3. Checking the total size of images  
 
 Since the maximum attachment size to Gmail is 25MB, images will only be sent with the email if the 
 total size does not exceed the limit.
@@ -46,7 +46,7 @@ to remind the user to retain the photos in his/her phone and upload to SharePoin
 The formatted report would still contain the names of the images whether or not the attachment is present. 
 
 
-4. Sending email
+4. Sending email  
 An HTML email is sent from the administrater account that enabled this script (see instructions below on 
 how to enbale) to the email address that the reporter inputs in the Google form.
 The reporter will receive an email stating "Click here to forward to WhatsApp", where "here" is 
@@ -55,7 +55,7 @@ When the reporter clicks on the hyperlink, s/he will be redirected to WhatsApp w
 recipient to forward the formatted report to.
 
 
-5. Deleting images
+5. Deleting images  
 If the email can be sent successfully, with the images as attachment, this script will delete the images 
 from the administrater's Google Drive. This is to ensure sustainable use of the storage space. 
 However,the deleted images will stay in the administrater's trash bin. S/he will need to manually delete 
@@ -65,7 +65,7 @@ them from the trash bin when the images are confirmed present in SharePoint.
 
 ## How to enable this script: 
 
-1. Copying this script to administrater's account.
+1. Copying this script to administrater's account.  
 
 Should the administrater wish to attach this script to his/her own Google form, s/he needs to:
 First, make a copy of both this file ("Code.gs") and the authorization file ("appsscript.json") to 
@@ -73,7 +73,7 @@ the scipt editor of his/her own Google form.
 If the "appsscript.json" file cannot be seen from the left panel, click on "View" -> "Show manifest file".
 
 
-2. Creating the trigger.
+2. Creating the trigger.  
 
 In the administrater's script editor, click on "Edit" -> "Current project's triggers".
 S/he will be redirected to another page to create the trigger.
