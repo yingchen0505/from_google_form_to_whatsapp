@@ -47,6 +47,7 @@ The formatted report would still contain the names of the images whether or not 
 
 
 4. Sending email  
+
 An HTML email is sent from the administrater account that enabled this script (see instructions below on 
 how to enbale) to the email address that the reporter inputs in the Google form.
 The reporter will receive an email stating "Click here to forward to WhatsApp", where "here" is 
@@ -56,6 +57,7 @@ recipient to forward the formatted report to.
 
 
 5. Deleting images  
+
 If the email can be sent successfully, with the images as attachment, this script will delete the images 
 from the administrater's Google Drive. This is to ensure sustainable use of the storage space. 
 However,the deleted images will stay in the administrater's trash bin. S/he will need to manually delete 
