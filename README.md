@@ -1,5 +1,5 @@
 # from_google_form_to_whatsapp
-A project to automate the WhatsApp reporting process of a company
+This is a Google App Script project to automate the WhatsApp reporting process of a company
 
 
 This script automates the reporting process by capturing the contents of the Google form
